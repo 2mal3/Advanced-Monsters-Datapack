@@ -37,8 +37,8 @@ data merge entity @s[type=minecraft:pillager] {CustomName:'[{"text":"Advanced: "
 
 replaceitem entity @s armor.head minecraft:stone_button{AttributeModifiers:[{AttributeName:"generic.maxHealth",Name:"generic.maxHealth",Amount:0.5,Operation:1,UUIDLeast:11091,UUIDMost:277775,Slot:"head"},{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:0.5,Operation:1,UUIDLeast:931896,UUIDMost:196357,Slot:"head"},{AttributeName:"generic.followRange",Name:"generic.followRange",Amount:0.1,Operation:1,UUIDLeast:728338,UUIDMost:733947,Slot:"head"},{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:0.1,Operation:1,UUIDLeast:198717,UUIDMost:41222,Slot:"head"}]} 1
 
-execute if entity @s[type=!#amd:undead] run summon minecraft:potion ~ ~ ~ {Motion:[0.0,-1.0,0.0],Potion:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:strong_healing"}}}
-execute if entity @s[type=#amd:undead] run summon minecraft:potion ~ ~ ~ {Motion:[0.0,-1.0,0.0],Potion:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:strong_harming"}}}
+execute if entity @s[type=!#amd:undead] run summon minecraft:potion ~ ~ ~ {Motion:[0.0,1.0,0.0],Potion:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:strong_healing"}}}
+execute if entity @s[type=#amd:undead] run summon minecraft:potion ~ ~ ~ {Motion:[0.0,1.0,0.0],Potion:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:strong_harming"}}}
 
 
 tag @s add amd.transformed

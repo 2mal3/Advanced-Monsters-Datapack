@@ -28,6 +28,7 @@
     "minecraft:zombie",
     "minecraft:zombie_pigman",
     "minecraft:zombie_villager",
-    "minecraft:pillager"
+    "minecraft:pillager",
+    "minecraft:witch"
   ]
 }

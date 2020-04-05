@@ -11,5 +11,5 @@ execute as @e[tag=amd.transformed] run data merge entity @s {CustomName:''}
 execute as @e[tag=amd.transformed] run data merge entity @s {CustomNameVisible:0b}
 
 tellraw @a {"text":""}
-say The Advanced Monsters Datapack v.1.0 by 2mal3 was successfully uninstalled!
+say The Advanced Monsters Datapack v.1.2 by 2mal3 was successfully uninstalled!
 tellraw @a {"text":""}

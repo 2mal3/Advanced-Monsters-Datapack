@@ -3,6 +3,8 @@ With the Advanced Monsters Datapack v.1.2 of 2mal3 there is a chance (usually 10
 
 The chance can be changed under data > amd > loot_tables > random.json by changing the second number. The probability then results from 1 / The specified number.
 
+This datapack supports with my Language Pack (https://link-to.net/80983/2mal3sLanguagePack) the languages German, Spanish and French.
+
 Installation:
  - Download the file.
  - Unzip the file.

@@ -6,6 +6,6 @@ tellraw @a {"text":" "}
 say The Advancet Monsters Datapack v.1.2 by 2mal3 was loaded!
 tellraw @a {"text":" "}
 
-advancement grant 2mal3 from main:root
+advancement grant @a from main:root
 
 scoreboard objectives add amd.random dummy

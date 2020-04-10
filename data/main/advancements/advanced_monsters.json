@@ -1,24 +1,19 @@
 {
-    "display": {
-        "title": {
-            "text": "Advanced Monsters v.1.2",
-            "color": "black"
-        },
-        "description": {
-            "translate": "With the Advanced Monsters Datapack v.1.2 of 2mal3 there is a chance that a monster will become an Advanced Monster. This monster is much stronger and harder to defeat."
-        },
-        "icon": {
-            "item": "minecraft:zombie_head"
-        },
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": false,
-        "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:zombie_head"
     },
-    "criteria": {
-        "impossible": {
-            "trigger": "minecraft:impossible"
-        }
-    },
-    "parent": "2mal3s_datapacks:root"
+    "title": "Advanced Monsters v.1.2",
+    "description": {"translate":"With the Advanced Monsters Datapack v.1.2 of 2mal3 there is a chance that a monster will become an Advanced Monster. This monster is much stronger and harder to defeat."},
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "main:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
 }

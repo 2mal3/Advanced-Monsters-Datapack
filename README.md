@@ -6,9 +6,5 @@ The chance can be changed under data > amd > loot_tables > random.json by changi
 
 This datapack supports with my Language Pack (https://link-to.net/80983/2mal3sLanguagePack) the languages German, Spanish and French.
 
-Installation:
- - Download the file.
- - Unzip the file.
- - Move the folder in the file to a Datapack folder in a world of your choice.
 
  To uninstall, enter /function #amd:uninstall and drag the Datapack folder from the Datapacks Order of the World

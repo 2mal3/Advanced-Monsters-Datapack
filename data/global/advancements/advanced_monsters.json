@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:zombie_head"
+    },
+    "title": "Advanced Monsters v.1.2.4",
+    "description": [{"translate":"With the "},{"text":"Advanced Monsters Datapack v.1.2.4"},{"translate":" by 2mal3 there is a chance that a monster will become an Advanced Monster. This monster is much stronger and harder to defeat."}],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "global:2mal3",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

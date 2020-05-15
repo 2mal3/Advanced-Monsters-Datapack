@@ -1,6 +1,6 @@
-# Advanced Monsters Datapack v.1.2.3
+# Advanced Monsters Datapack v.1.2.4
 
-With the Advanced Monsters Datapack v.1.2.3 of 2mal3 there is a chance (usually 10%) that a monster will become an Advanced Monster. This monster has 50% more life, does 50% more damage, is 10% faster and sees players 10% longer.
+With the Advanced Monsters Datapack v.1.2.4 of 2mal3 there is a chance (usually 10%) that a monster will become an Advanced Monster. This monster has 50% more life, does 50% more damage, is 10% faster and sees players 10% longer.
 
 The chance can be changed under data > amd > loot_tables > random.json by changing the second number. The probability then results from 1 / The specified number.
 

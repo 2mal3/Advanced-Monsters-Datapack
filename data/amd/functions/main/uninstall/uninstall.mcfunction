@@ -13,3 +13,7 @@ scoreboard objectives remove amd.data
 execute as @e[tag=amd.transformed] run replaceitem entity @s armor.head minecraft:air
 execute as @e[tag=amd.transformed] run data merge entity @s {CustomName:''}
 execute as @e[tag=amd.transformed] run data merge entity @s {CustomNameVisible:0b}
+
+
+# disable datapck
+datapack disable "file/Advanced-Monsters-Datapack"

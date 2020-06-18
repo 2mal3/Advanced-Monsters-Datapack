@@ -1,4 +1,4 @@
-# Advanced Monsters Datapack v.1.2.4
+# Advanced Monsters Datapack v.1.3.5
 
 With the Advanced Monsters Datapack v.1.2.4 of 2mal3 there is a chance (usually 10%) that a monster will become an Advanced Monster. This monster has 50% more life, does 50% more damage, is 10% faster and sees players 10% longer.
 

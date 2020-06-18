@@ -6,7 +6,6 @@
     "minecraft:creeper",
     "minecraft:drowned",
     "minecraft:elder_guardian",
-    "minecraft:enderman",
     "minecraft:endermite",
     "minecraft:evoker",
     "minecraft:ghast",
@@ -26,7 +25,6 @@
     "minecraft:vindicator",
     "minecraft:wither_skeleton",
     "minecraft:zombie",
-    "minecraft:zombie_pigman",
     "minecraft:zombie_villager",
     "minecraft:pillager",
     "minecraft:witch"

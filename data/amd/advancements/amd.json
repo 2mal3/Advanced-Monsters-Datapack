@@ -1,0 +1,17 @@
+{
+  "display": {
+      "title": "Advanced Monsters v.1.6.8",
+      "description": "With the Advanced Monsters Datapack v.1.6.8 by 2mal3 there is a chance that a monster will become an Advanced Monster. This monster is much stronger and harder to defeat.",
+      "icon": {
+          "item": "minecraft:zombie_head"
+      },
+      "announce_to_chat": false,
+      "show_toast": false
+  },
+  "parent": "global:2mal3",
+  "criteria": {
+      "trigger": {
+          "trigger": "minecraft:tick"
+      }
+  }
+}

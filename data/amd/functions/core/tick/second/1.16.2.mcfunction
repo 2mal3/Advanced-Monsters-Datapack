@@ -1,5 +1,5 @@
 # Description: Game loop for 1.16.2 every second
-# Called by: main/reload/reload, main/tick/second
+# Called by: core/reload/reload, core/tick/second
 # Datapack by 2mal3
 
 # choose a random monster
@@ -10,4 +10,4 @@ execute as @e[scores={amd.random=1},tag=!amd.transformed,tag=!global.ignore] at 
 
 
 # tick
-schedule function amd:main/tick/second/1.16.2 1s
+schedule function amd:core/tick/second/1.16.2 1s

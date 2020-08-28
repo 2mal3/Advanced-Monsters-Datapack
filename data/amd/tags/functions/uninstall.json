@@ -1,5 +1,5 @@
 {
  "values": [
- "amd:main/uninstall/uninstall_ask"
+ "amd:core/uninstall/uninstall_ask"
  ]
 }

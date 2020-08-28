@@ -1,9 +1,9 @@
 # Description: uninstalling
-# Called by: main/uninstall/uninstall_ask
+# Called by: core/uninstall/uninstall_ask
 # Datapack by 2mal3
 
 # send remove message
-tellraw @a[tag=!global.ignore,tag=!global.ignore.gui] [{"text":"[Server] Advanced Monsters Datapack v."},{"score":{"name":"$V1","objective":"amd.data"}},{"text":"."},{"score":{"name":"$V2","objective":"amd.data"}},{"text":"."},{"score":{"name":"$V3","objective":"amd.data"}},{"text":" by 2mal3 was successfully uninstalled."}]
+tellraw @a[tag=!global.ignore,tag=!global.ignore.gui] [{"text":"[Server] Advanced Monsters Datapack v"},{"score":{"name":"$V1","objective":"amd.data"}},{"text":"."},{"score":{"name":"$V2","objective":"amd.data"}},{"text":"."},{"score":{"name":"$V3","objective":"amd.data"}},{"text":" by 2mal3 was successfully uninstalled."}]
 
 
 # remove scoreboards
@@ -21,9 +21,9 @@ execute as @e[tag=amd.transformed] run data merge entity @s {CustomName:""}
 
 
 # diasable datapack tick
-schedule clear amd:main/tick/second/1.14
-schedule clear amd:main/tick/second/1.16
-schedule clear amd:main/tick/second/1.16.2
+schedule clear amd:core/tick/second/1.14
+schedule clear amd:core/tick/second/1.16
+schedule clear amd:core/tick/second/1.16.2
 
 
 # disable datapck

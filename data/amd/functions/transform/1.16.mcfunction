@@ -1,38 +1,38 @@
 # Description: Turns the monsters into advanced for 1.16
-# Called by: main/tick/second/1.16
+# Called by: core/tick/second/1.16
 # Datapack by 2mal3
 
 # rename monsters
-data merge entity @s {CustomName:'[{"text":"Advanced","color":"red"}]'}
-data merge entity @s[type=minecraft:blaze] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Blaze","color":"white"}]'}
-data merge entity @s[type=minecraft:cave_spider] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Cave Spider","color":"white"}]'}
-data merge entity @s[type=minecraft:creeper] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Creeper","color":"white"}]'}
-data merge entity @s[type=minecraft:drowned] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Drowned","color":"white"}]'}
-data merge entity @s[type=minecraft:elder_guardian] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Elder guardian","color":"white"}]'}
-data merge entity @s[type=minecraft:endermite] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Endermite","color":"white"}]'}
-data merge entity @s[type=minecraft:evoker] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Evoker","color":"white"}]'}
-data merge entity @s[type=minecraft:ghast] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Ghast","color":"white"}]'}
-data merge entity @s[type=minecraft:guardian] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Guardian","color":"white"}]'}
-data merge entity @s[type=minecraft:husk] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Husk","color":"white"}]'}
-data merge entity @s[type=minecraft:illusioner] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Illusioner","color":"white"}]'}
-data merge entity @s[type=minecraft:magma_cube] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Magma cube","color":"white"}]'}
-data merge entity @s[type=minecraft:phantom] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Phantom","color":"white"}]'}
-data merge entity @s[type=minecraft:ravager] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Ravager","color":"white"}]'}
-data merge entity @s[type=minecraft:shulker] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Shulker","color":"white"}]'}
-data merge entity @s[type=minecraft:silverfish] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Silverfish","color":"white"}]'}
-data merge entity @s[type=minecraft:skeleton] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Skeleton","color":"white"}]'}
-data merge entity @s[type=minecraft:slime] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Slime","color":"white"}]'}
-data merge entity @s[type=minecraft:spider] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Spider","color":"white"}]'}
-data merge entity @s[type=minecraft:stray] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Stray","color":"white"}]'}
-data merge entity @s[type=minecraft:vex] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Vex","color":"white"}]'}
-data merge entity @s[type=minecraft:vindicator] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Vindicator","color":"white"}]'}
-data merge entity @s[type=minecraft:wither_skeleton] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Wither Skeleton","color":"white"}]'}
-data merge entity @s[type=minecraft:zombie] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Zombie","color":"white"}]'}
-data merge entity @s[type=minecraft:zombie_villager] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Zombie Villager","color":"white"}]'}
-data merge entity @s[type=minecraft:pillager] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Pillager","color":"white"}]'}
-data merge entity @s[type=minecraft:witch] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Witch","color":"white"}]'}
-data merge entity @s[type=minecraft:zoglin] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Zoglin","color":"white"}]'}
-data merge entity @s[type=minecraft:hoglin] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Hoglin","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui] {CustomName:'[{"text":"Advanced","color":"red"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:blaze] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Blaze","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:cave_spider] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Cave Spider","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:creeper] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Creeper","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:drowned] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Drowned","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:elder_guardian] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Elder guardian","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:endermite] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Endermite","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:evoker] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Evoker","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:ghast] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Ghast","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:guardian] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Guardian","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:husk] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Husk","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:illusioner] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Illusioner","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:magma_cube] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Magma cube","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:phantom] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Phantom","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:ravager] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Ravager","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:shulker] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Shulker","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:silverfish] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Silverfish","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:skeleton] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Skeleton","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:slime] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Slime","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:spider] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Spider","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:stray] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Stray","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:vex] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Vex","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:vindicator] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Vindicator","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:wither_skeleton] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Wither Skeleton","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:zombie] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Zombie","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:zombie_villager] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Zombie Villager","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:pillager] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Pillager","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:witch] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Witch","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:zoglin] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Zoglin","color":"white"}]'}
+data merge entity @s[tag=!global.ignore.gui,type=minecraft:hoglin] {CustomName:'[{"text":"Advanced: ","color":"red"},{"text":"Hoglin","color":"white"}]'}
 
 
 # make the monsters stronger

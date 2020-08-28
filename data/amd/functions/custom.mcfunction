@@ -1,5 +1,5 @@
 # Description: Additional abilities for transformed monsters
-# Called by: main/tick/tick
+# Called by: core/tick/tick
 # Datapack by 2mal3
 
 execute if entity @s[type=#amd:arrow] run data merge entity @e[type=minecraft:arrow,limit=1,sort=nearest,distance=..2] {damage:4d}

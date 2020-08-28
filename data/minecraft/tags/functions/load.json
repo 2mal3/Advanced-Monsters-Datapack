@@ -1,5 +1,5 @@
 {
  "values": [
- "amd:main/reload/reload"
+ "amd:core/reload/reload"
  ]
 }

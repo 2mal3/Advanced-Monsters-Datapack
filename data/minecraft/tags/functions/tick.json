@@ -1,5 +1,5 @@
 {
  "values": [
- "amd:main/tick/tick"
+ "amd:core/tick/tick"
  ]
 }

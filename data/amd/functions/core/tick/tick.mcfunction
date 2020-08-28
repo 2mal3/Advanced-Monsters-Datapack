@@ -1,5 +1,5 @@
 # Description: Game loop tick for 1.14+
-# Called by: main/tick/tick/main
+# Called by: core/tick/tick/core
 # Datapack by 2mal3
 
 # better advanced monsters projectiles

@@ -1,5 +1,5 @@
 {
- "values": [
- "amd:core/reload/reload"
- ]
+    "values": [
+        "#load:__init"
+    ]
 }

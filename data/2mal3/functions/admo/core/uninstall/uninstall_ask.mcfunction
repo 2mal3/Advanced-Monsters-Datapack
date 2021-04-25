@@ -3,4 +3,4 @@
 # Called from tag: 2mal3:admo/uninstall
 # Datapack by 2mal3
 
-tellraw @s [{"text":"Do you really want to deinstall the <name> Datapack by 2mal3?","color":"red"},{"text":"\n"},{"text":"[No]","color":"dark_green","hoverEvent":{"action":"show_text","value":"*click*"}},{"text":"\u0020"},{"text":"[Yes]","color":"dark_red","clickEvent":{"action":"run_command","value":"/function 2mal3:admo/core/uninstall/uninstall"},"hoverEvent":{"action":"show_text","value":"*click*"}}]
+tellraw @s [{"text":"Do you really want to deinstall the Advanced Monsters Datapack by 2mal3?","color":"red"},{"text":"\n"},{"text":"[No]","color":"dark_green","hoverEvent":{"action":"show_text","value":"*click*"}},{"text":"\u0020"},{"text":"[Yes]","color":"dark_red","clickEvent":{"action":"run_command","value":"/function 2mal3:admo/core/uninstall/uninstall"},"hoverEvent":{"action":"show_text","value":"*click*"}}]

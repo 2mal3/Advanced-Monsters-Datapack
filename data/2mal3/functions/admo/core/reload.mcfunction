@@ -7,15 +7,12 @@
 tellraw @a[scores={admo.debug_mode=3..}] [{"text":"[","color":"gray"},{"text":"AdvancedMonsters","color":"green"},{"text":"/","color":"gray"},{"text":"INFO","color":"green"},{"text":"]: ","color":"gray"},{"text":"Datapack reloaded!","color":"green"}]
 
 
-# Adds scoreboards
+# Add basic scoreboards
 scoreboard objectives add admo.data dummy
-scoreboard objectives add admo.debug_mode dummy
 
-# Set the version in format: xx.xx.xx
-scoreboard players set $version admo.data 010300
-
-# Executes the installation when the datapack is started for the first time
-execute unless score .first_run admo.data matches 1 run schedule function 2mal3:admo/core/first_run 4s
+# Initializes the datapack at the first startup or new version
+execute unless score .first_run admo.data matches 1 run function 2mal3:admo/core/first_run/main
+execute if score .first_run admo.data matches 1 unless score $version admo.data matches 010300 run function 2mal3:admo/core/first_run/update
 
 # Starts the loops
-function 2mal3:admo/core/second
+schedule function 2mal3:admo/core/loop 1s replace

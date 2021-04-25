@@ -8,7 +8,7 @@ tellraw @a[scores={admo.debug_mode=3..}] [{"text":"[","color":"gray"},{"text":"A
 
 
 # Stops the loops
-schedule clear 2mal3:admo/core/second
+schedule clear 2mal3:admo/core/loop
 
 # Deletes the scoreboards
 scoreboard objectives remove admo.data

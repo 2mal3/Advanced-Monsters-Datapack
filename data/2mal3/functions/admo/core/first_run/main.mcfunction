@@ -1,4 +1,4 @@
-# Description: One-time commands at the first start of the datapack
+# Description: Installs the Datapack on first start
 # AS: server, AT: server
 # Called from function: 2mal3:admo/core/reload
 # Datapack by 2mal3
@@ -6,11 +6,21 @@
 # Output debug message in chat, if enabled (INFO)
 tellraw @a[scores={admo.debug_mode=3..}] [{"text":"[","color":"gray"},{"text":"AdvancedMonsters","color":"green"},{"text":"/","color":"gray"},{"text":"INFO","color":"green"},{"text":"]: ","color":"gray"},{"text":"Datapack installed!","color":"green"}]
 
-# Start config
+
+# Adds scoreboards
+scoreboard objectives add admo.data dummy
+scoreboard objectives add admo.debug_mode dummy
+# Set start config
 scoreboard players set $transform_chance admo.data 10
+# Set the version in format: xx.xx.xx
+scoreboard players set $version admo.data 010300
+
+# Install librarys
+function 2mal3:random/reload
+
+# Sends Insatlations message after 4 sekonds
+schedule function 2mal3:admo/core/first_run/send_message 4s
+
 
 # Remembers that the Datapack was installed
 scoreboard players set .first_run admo.data 1
-
-# Sends installation message
-tellraw @a [{"text":"Advanced Monsters Datapack v1.3.0 by 2mal3 was installed!","color":"blue"}]

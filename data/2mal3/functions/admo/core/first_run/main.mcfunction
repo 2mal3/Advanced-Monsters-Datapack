@@ -15,6 +15,10 @@ scoreboard players set $transform_chance admo.data 10
 # Set the version in format: xx.xx.xx
 scoreboard players set $version admo.data 010300
 
+# Creates a loaded sign for the datapck somewhere in the world
+forceload add 9232029 6397680
+setblock 9232029 1 6397680 minecraft:crimson_sign
+
 # Install librarys
 function 2mal3:random/reload
 

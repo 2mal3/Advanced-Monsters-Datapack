@@ -15,5 +15,5 @@ function 2mal3:random/random
 execute if score .out_0 2mal3.random matches 0 run function 2mal3:admo/transform
 
 
-# Notes that this monster was processed
+# Saves that this monster was processed
 tag @s add admo.processed

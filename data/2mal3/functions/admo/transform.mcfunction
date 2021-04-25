@@ -9,10 +9,10 @@ tellraw @a[scores={admo.debug_mode=4..}] [{"text":"[","color":"gray"},{"text":"A
 
 # Sets the name of the monster
 tag @s add admo.this
-setblock ~ ~ ~ oak_sign{Text1: '[{"text":"Advanced: ","color":"red"},{"selector":"@e[tag=admo.this,sort=nearest,limit=1]","color":"white"}]'}
-data modify entity @s CustomName set from block ~ ~ ~ Text1
+setblock 9232029 1 6397680 minecraft:crimson_sign{Text1: '[{"text":"Advanced: ","color":"red"},{"selector":"@e[tag=admo.this]","color":"white"}]'}
+data modify entity @s CustomName set from block 9232029 1 6397680 Text1
 
-setblock ~ ~ ~ minecraft:air
+setblock 9232029 1 6397680 minecraft:stone
 tag @s remove admo.this
 
 

@@ -14,6 +14,10 @@ schedule clear 2mal3:admo/core/loop
 scoreboard objectives remove admo.data
 scoreboard objectives remove admo.debug_mode
 
+# Removes the datapack sign
+forceload remove 9232029 6397680
+setblock 9232029 1 6397680 minecraft:stone
+
 # Uninstall librarys
 function 2mal3:random/uninstall
 

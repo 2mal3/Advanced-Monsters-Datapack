@@ -12,10 +12,10 @@ scoreboard objectives add admo.data dummy
 scoreboard objectives add admo.debug_mode dummy
 
 # Set the version in format: xx.xx.xx
-scoreboard players set $admo.version admo.data 010300
+scoreboard players set $version admo.data 010300
 
 # Executes the installation when the datapack is started for the first time
-execute unless score $admo.first_run admo.data matches 1 run schedule function 2mal3:admo/core/first_run 4s
+execute unless score .first_run admo.data matches 1 run schedule function 2mal3:admo/core/first_run 4s
 
 # Starts the loops
 function 2mal3:admo/core/second

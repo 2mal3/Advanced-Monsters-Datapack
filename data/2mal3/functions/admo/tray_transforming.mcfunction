@@ -9,7 +9,7 @@ tellraw @a[scores={admo.debug_mode=4..}] [{"text":"[","color":"gray"},{"text":"A
 
 # Transforms with a certain chance the monster
 scoreboard players set .in_0 2mal3.random 0
-scoreboard players operation .in_1 2mal3.random = $admo.transform_chance admo.data
+scoreboard players operation .in_1 2mal3.random = $transform_chance admo.data
 function 2mal3:random/random
 
 execute if score .out_0 2mal3.random matches 0 run function 2mal3:admo/transform

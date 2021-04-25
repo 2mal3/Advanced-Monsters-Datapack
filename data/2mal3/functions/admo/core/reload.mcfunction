@@ -1,5 +1,6 @@
 # Description: Commands when reloading the datapack
-# Called from tag: minecraft:reaload
+# AS: server, AT: server
+# Called from function tag: load:load
 # Datapack by 2mal3
 
 # Output debug message in chat, if enabled (INFO)

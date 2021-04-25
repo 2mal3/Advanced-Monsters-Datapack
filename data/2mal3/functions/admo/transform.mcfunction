@@ -1,5 +1,6 @@
 # Description: Transforms a monster
-# Called from functions: 2mal3:admo/tray_transforming
+# AS: @e[type=#2mal3:admo/monsters,tag=!admo.processed,tag=!global.ignore], AT: @s
+# Called from function: 2mal3:admo/tray_transforming
 # Datapack by 2mal3
 
 # Output debug message in chat, if enabled (DEBUG)
@@ -8,7 +9,7 @@ tellraw @a[scores={admo.debug_mode=4..}] [{"text":"[","color":"gray"},{"text":"A
 
 # Sets the name of the monster
 tag @s add admo.this
-setblock ~ ~ ~ oak_sign{Text1:'[{"text":"Advanced: ","color":"red"},{"selector":"@e[tag=admo.this,sort=nearest,limit=1]","color":"white"}]'}
+setblock ~ ~ ~ oak_sign{Text1: '[{"text":"Advanced: ","color":"red"},{"selector":"@e[tag=admo.this,sort=nearest,limit=1]","color":"white"}]'}
 data modify entity @s CustomName set from block ~ ~ ~ Text1
 
 setblock ~ ~ ~ minecraft:air

@@ -1,5 +1,6 @@
 # Description: Transforms with a certain chance the monster
-# Called from functions: 2mal3:admo/core/second
+# AS: @e[type=#2mal3:admo/monsters,tag=!admo.processed,tag=!global.ignore], AT: @s
+# Called from function: 2mal3:admo/core/second
 # Datapack by 2mal3
 
 # Output debug message in chat, if enabled (DEBUG)

@@ -1,4 +1,5 @@
 # Description: Uninstalls the Datapack
+# AS: player, AT: player
 # Called from function: core/uninstall/uninstall_ask
 # Datapack by 2mal3
 

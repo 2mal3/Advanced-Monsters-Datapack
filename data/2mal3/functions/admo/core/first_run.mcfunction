@@ -1,4 +1,5 @@
 # Description: One-time commands at the first start of the datapack
+# AS: server, AT: server
 # Called from function: 2mal3:admo/core/reload
 # Datapack by 2mal3
 

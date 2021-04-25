@@ -1,4 +1,5 @@
 # Description: Main loop every second
+# AS: server, AT: server
 # Called from functions: 2mal3:admo/core/reload, 2mal3:admo/core/second
 # Datapack by 2mal3
 

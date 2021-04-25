@@ -4,7 +4,7 @@
 
 # prepare
 forceload add 0 0
-summon area_effect_cloud 0 0 0 {Tags:["2mal3.random"]}
+summon area_effect_cloud 0 0 0 {Tags: ["2mal3.random"]}
 
 
 # generate

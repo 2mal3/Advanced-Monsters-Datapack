@@ -1,4 +1,5 @@
 # Description: Ask the player if he really wants to uninstall the datapack
+# AS: player, AT: player
 # Called from tag: 2mal3:admo/uninstall
 # Datapack by 2mal3
 

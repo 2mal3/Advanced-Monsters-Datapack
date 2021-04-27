@@ -8,4 +8,4 @@ tellraw @a[scores={admo.debug_mode=3..}] [{"text":"[","color":"gray"},{"text":"A
 
 
 # Set version variable in format xx.xx.xx
-scoreboard players set .version nola.data 010400
+scoreboard players set .version nola.data 010300

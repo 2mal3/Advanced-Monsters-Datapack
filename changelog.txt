@@ -1,24 +1,4 @@
 
-Update v1.4.0 (27.4.2021)
-
-This update actually only changes a few code internal things, but overall improves the quality and usability. 
-
-Changed:
-- Datapack core updatet
-    - Test for wrong Minecraft version or server software added
-    - Datapack updater added
-    - Better installation of the datapack
-    - Better compatibility with other datapcks
-    - Debug function added
-- Clearer code
-- Better method to change the name of an advanced monster
-- Internal variable names
-
-Bug fixes:
-- When asked if you really want to uninstall the datapack, the name of the datapack was not mentioned.
-
-----------------------------------------------------------------
-
 Update v1.3.0 (24.1.2021)
 
 Added:

@@ -12,7 +12,7 @@ scoreboard objectives add admo.data dummy
 
 # Initializes the datapack at the first startup or new version
 execute unless score .first_run admo.data matches 1 run function 2mal3:admo/core/first_run/main
-execute if score .first_run admo.data matches 1 unless score $version admo.data matches 010300 run function 2mal3:admo/core/first_run/update
+execute if score .first_run admo.data matches 1 unless score $version admo.data matches 010400 run function 2mal3:admo/core/first_run/update
 
 # Starts the loops
 schedule function 2mal3:admo/core/loop 1s replace

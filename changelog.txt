@@ -1,4 +1,19 @@
 
+Update v1.4.1 (2.6.2021)
+
+This update finally makes the datapack completely compatible with the new version of Minecraft, so you can now use it on all 1.17 pre release worlds.
+In addition, a few bugs and description errors have been fixed.
+
+Changed:
+- The datapack is now compatible with the 1.17
+- Debug messages improved
+
+Bug fixes:
+- Datapack description
+- Wrong warn message with a incorrect server software
+
+----------------------------------------------------------------
+
 Update v1.4.0 (27.4.2021)
 
 This update actually only changes a few code internal things, but overall improves the quality and usability. 

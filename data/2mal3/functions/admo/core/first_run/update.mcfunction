@@ -4,8 +4,8 @@
 # Datapack by 2mal3
 
 # Output debug message in chat, if enabled
-tellraw @a[scores={admo.debug_mode=3..}] [{"text":"[","color":"gray"},{"text":"AdvancedMonsters","color":"green"},{"text":"/","color":"gray"},{"text":"INFO","color":"green"},{"text":"]: ","color":"gray"},{"text":"Updated datapack!","color":"green"}]
+tellraw @a[scores={admo.debug_mode=3..}] [{"text":"[","color":"gray"},{"text":"AdvancedMonsters","color":"green"},{"text":"/","color":"gray"},{"text":"INFO","color":"green"},{"text":"]: ","color":"gray"},{"text":"Datapack updated","color":"green"}]
 
 
 # Set version variable in format xx.xx.xx
-scoreboard players set .version nola.data 010400
+scoreboard players set .version nola.data 010401

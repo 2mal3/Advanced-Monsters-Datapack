@@ -21,8 +21,8 @@ setblock 9232029 1 6397680 minecraft:stone
 function 2mal3:random/uninstall
 
 # Sends an uninstallation message to all players
-tellraw @a [{"text":"Advanced Monsters Datapack v1.4.0 by 2mal3 was successfully uninstalled."}]
+tellraw @a [{"text":"Advanced Monsters Datapack v1.4.1 by 2mal3 was successfully uninstalled."}]
 
 # Disables the datapack
-datapack disable "file/Advanced-Monsters-Datapack-v1.4.0"
-datapack disable "file/Advanced-Monsters-Datapack-v1.4.0.zip"
+datapack disable "file/Advanced-Monsters-Datapack-v1.4.1"
+datapack disable "file/Advanced-Monsters-Datapack-v1.4.1.zip"

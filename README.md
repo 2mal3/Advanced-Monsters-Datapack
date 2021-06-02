@@ -12,7 +12,7 @@ This datapack adds the chance for normal monsters to become advanced monsters. T
 
 ## ⚙ Settings:
 The command: `scoreboard players set $transform_chance admo.data <number>` can be used to set the probability of spawning the advanced monsters. The probability is calculated with **1 / the set number**. Example: If you set as the number **20** the probability is **5%** (1 / **20** = 0.05 = **5%**).                         
-If the number is **1**, every monster is advanced. If the number is **0**, no monster is advanced.
+If the number is **0**, every monster is advanced. If the number is **-1**, no monster is advanced.
 
 ## 📝 Exact information about advanced monsters:
 - 70% more damage

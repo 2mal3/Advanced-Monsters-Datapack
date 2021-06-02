@@ -4,7 +4,7 @@
 # Datapack by 2mal3
 
 # Output debug message in chat, if enabled (DEBUG)
-tellraw @a[scores={admo.debug_mode=4..}] [{"text":"[","color":"gray"},{"text":"AdvancedMonsters","color":"aqua"},{"text":"/","color":"gray"},{"text":"DEBUG","color":"aqua"},{"text":"]: ","color":"gray"},{"text":"Try to transform ","color":"aqua"},{"selector":"@s","color":"aqua"},{"text":" ...","color":"aqua"}]
+tellraw @a[scores={admo.debug_mode=4..}] [{"text":"[","color":"gray"},{"text":"AdvancedMonsters","color":"aqua"},{"text":"/","color":"gray"},{"text":"DEBUG","color":"aqua"},{"text":"/","color":"gray"},{"selector":"@s","color":"aqua"},{"text":"]: ","color":"gray"},{"text":"Try to transform","color":"aqua"}]
 
 
 # Transforms with a certain chance the monster

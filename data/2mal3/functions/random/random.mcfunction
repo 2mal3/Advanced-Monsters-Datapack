@@ -3,12 +3,11 @@
 # Datapack library by 2mal3
 
 # prepare
-forceload add 0 0
-summon area_effect_cloud 0 0 0 {Tags: ["2mal3.random"]}
+execute as @r at @s run summon minecraft:marker 0 0 0 {Tags: ["2mal3.random"]}
 
 
 # generate
-execute store result score .temp_0 2mal3.random run data get entity @e[type=minecraft:area_effect_cloud,tag=2mal3.random,limit=1] UUID[0]
+execute store result score .temp_0 2mal3.random run data get entity @e[type=minecraft:marker,tag=2mal3.random,limit=1] UUID[0]
 
 scoreboard players operation .temp_1 2mal3.random = .in_1 2mal3.random
 scoreboard players add .temp_1 2mal3.random 1
@@ -21,5 +20,4 @@ scoreboard players operation .out_0 2mal3.random = .temp_0 2mal3.random
 
 
 # remove
-kill @e[type=minecraft:area_effect_cloud,tag=2mal3.random]
-forceload remove 0 0
+kill @e[type=minecraft:marker,tag=2mal3.random]

@@ -1,6 +1,8 @@
 # Advanced Monsters Datapack
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/2mal3/Advanced-Monsters-Datapack?style=flat-square) ![GitHub all releases](https://img.shields.io/github/downloads/2mal3/Advanced-Monsters-Datapack/total?style=flat-square) ![GitHub](https://img.shields.io/github/license/2mal3/Advanced-Monsters-Datapack?style=flat-square)
 
+> **This datapack has been discontinued, it is no longer updated and supported.**
+
 This datapack adds the chance for normal monsters to become advanced monsters. These monsters are faster, stronger and have more lives, so the game becomes a bit more difficult. That is all.
 
 ## 📖 Features:
